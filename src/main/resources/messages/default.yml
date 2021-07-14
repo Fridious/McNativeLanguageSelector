@@ -1,0 +1,19 @@
+meta:
+  name: 'McNativeLanguageSelector English'
+  module: 'McNativeLanguageSelector'
+  language:
+    name: 'English'
+    localizedName: 'English'
+    code: 'en'
+messages:
+  mcnativelanguageselector.prefix: '&8» &2McNativeLanguageSelector &8|&f'
+
+  mcnativelanguageselector.error.onlyPlayer: '${mcnativelanguageselector.prefix} &cThis command can only be executed as a player'
+  mcnativelanguageselector.error.languageNotFound: '${mcnativelanguageselector.prefix} &e{language} &cnot found'
+
+  mcnativelanguageselector.command.language.help: '${mcnativelanguageselector.prefix} &cInvalid usage of language command&8:
+  &7/language <name>
+
+  &7Languages&8: @for("languageConfiguration" in {languageConfigurations}, ${mcnativelanguageselector.command.language.help.loop},"\n", "\n")'
+  mcnativelanguageselector.command.language.help.loop: ' &8- &e{languageConfiguration.name} &8| &e{languageConfiguration.displayName}'
+  mcnativelanguageselector.command.language: '${mcnativelanguageselector.prefix} &7You have changed the language to &e{language.displayName}'
