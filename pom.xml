@@ -59,7 +59,7 @@
                     <resource-loader-version>${dependency.pretronic.libraries}</resource-loader-version>
                     <manifest>
                         <name>McNativeLanguageSelector</name>
-                        <id>ea6d0f4d-1a8f-4f9b-835a-c17b9169df17</id>
+                        <id>415e443a-e655-11eb-8ba0-0242ac180002</id>
                         <version>${project.version}</version>
                         <main>org.mcnative.languageselector.McNativeLanguageSelectorPlugin</main>
                         <website>https://pretronic.net</website>
